@@ -1,0 +1,102 @@
+
+/* ---------- CSS: FOGLIO DI STILE DOCUMENT--------- */
+
+header{
+    height: 120px;
+    background-color:#036;
+}
+
+.text{
+    position: relative;
+    padding-top:  30px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.25em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
+    font-weight: 600;
+    letter-spacing: unset;
+    line-height: 1.1;
+}
+
+
+
+#logo{
+    float: left; 
+    margin-right: 10px;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 80px;
+    height: 80px;
+}
+
+.container-fluid .btn{
+    background-color: #0E185F;
+    color:#ffffff;
+    border: 2px solid #0E185F;
+    margin-top: 1%;
+
+}
+
+.container-fluid .btn:hover{
+    background-color:rgb(0, 65, 130);
+    color:whitesmoke;
+    transition: 0.5s;
+}
+
+.container{
+    color: #ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    flex: 1;
+}
+
+.main-text{
+    margin-top: 4%;
+    text-align:center;
+    font-size: 50px;
+}
+
+.secondary-text{
+    margin-top: 9%;
+}
+
+.secondary-text .text-p{
+    font-size: 25px;
+}
+
+footer{
+    height: 100%;
+}
+
+.text-center{
+    background-color: #036; 
+    color: white;
+}
+
+.text-center a{
+    text-decoration: none; 
+    color: white;
+}
+
+
+
+/* GIOCO DELLE BIGLIE STYLE */
+.descrizione-gioco span{
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.codice-c{
+    color: rgb(47, 255, 64);
+    margin-top: 2px;
+}
+
+.metodi{
+    margin-left: 20px;
+}
+
+.description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 2%;
+}
